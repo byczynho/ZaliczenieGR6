@@ -3,10 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f3ecff;
+
+.subscribe-section {
+
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 .container {
     background-color: #ffffff;
@@ -113,4 +117,30 @@ body {
 .partners img {
     width: 80px;
     height: auto;
+=======
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.subscribe-form {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.subscribe-form h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input[type="email"] {
+    margin-right: 10px;
+}
+
+.subscribe-form .btn {
+    background-color: #ff7e5f;
+    border-color: #ff7e5f;
+
 }
