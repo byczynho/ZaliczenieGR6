@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 50%;
+}
+
+.image-container img {
+    border-radius: 50%;
+}
+
+.bg-light {
+    background-color: #f9f9f9 !important;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.list-unstyled li i {
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: none;
+    color: white;
+}
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3ecff;
+
+.subscribe-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container {
+    background-color: #ffffff;
+    width: 80%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    position: relative;
+    text-align: left;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin: 0;
+    color: #6200ea;
+    font-size: 24px;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.buttons button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color: #3700b3;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-content {
+    max-width: 60%;
+}
+.text-content h2 {
+    color: #333;
+    font-size: 28px;
+}
+.text-content p {
+    color: #666;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.text-content .enroll-button {
+    background-color: #ff007b;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.text-content .enroll-button:hover {
+    background-color: #d60065;
+}
+.image-content {
+    max-width: 35%;
+}
+.image-content img {
+    width: 100%;
+    border-radius: 20px;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.stats div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats div img {
+    width: 40px;
+}
+.stats div p {
+    margin: 10px 0 0;
+    font-weight: bold;
+    color: #333;
+}
+.partners {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.partners img {
+    width: 80px;
+    height: auto;
+
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.subscribe-form {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.subscribe-form h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input[type="email"] {
+    margin-right: 10px;
+}
+
+.subscribe-form .btn {
+    background-color: #ff7e5f;
+    border-color: #ff7e5f;
+
+}
