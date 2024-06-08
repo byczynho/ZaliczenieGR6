@@ -117,7 +117,7 @@ body {
 .partners img {
     width: 80px;
     height: auto;
-=======
+======
     padding: 20px;
     background-color: #f8f9fa;
 }
@@ -143,4 +143,70 @@ body {
     background-color: #ff7e5f;
     border-color: #ff7e5f;
 
+}
+.jafAInl-container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: var(--wyq-accent-color);
+}
+
+.sqjLUHb-search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pLLsVFm-input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid var(--wyq-primary-color);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.nwHgTIh-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--wyq-primary-color);
+    color: var(--wyq-accent-color);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.EkdxvVc-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fQvUjiK-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.jZjNvGb-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Lfqlgim-benefits {
+    max-width: 600px;
+}
+
+.SjbvJkn-title {
+    color: var(--wyq-primary-color);
+    margin-bottom: 20px;
+}
+
+.zHjghNs-list {
+    list-style: none;
+    padding: 0;
+}
+
+.xfQwJie-item {
+    margin-bottom: 10px;
 }
